@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Child's world</title>
+		<link rel="stylesheet/less" href="css/style.less">
+		<script src="bower_components/angular/angular.js"></script>
+		<script src="bower_components/jquery/dist/jquery.js"></script>
+		<script src="bower_components/jcarousel/dist/jquery.jcarousel.min.js"></script>
+		<script src="bower_components/jcarousel/dist/jquery.jcarousel-control.min.js"></script>
+
+		<script src="bower_components/less/dist/less.js"></script>
+		<script src="js/script.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="logo">
+				<img src="img/logo.png" alt=""/>
+			</div>
+
+			<div class="menu">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Contact Us</a></li>
+					<li>
+						<form class="search_form">
+							<input id="query" name="q" type="text" placeholder="Search..." >
+							<input id="submit" type="submit" value="Search">
+						</form>
+					</li>
+				</ul>
+			</div>
+		</header>
+
+		<div class="container">
+			<div class="module left_column big">
+				<div class="player">
+					<h2 class="title"></h2>
+					<div id="placeholder"></div>
+				</div>
+			</div>
+			<div class="module right_column small">
+				<div class="wrap_jcarousel">
+					<div class="jcarousel">
+						<ul class="search_result"></ul>
+					</div>
+					<!--  CONTROLS  -->
+					<a class="jcarousel-prev" href="#"></a>
+					<a class="jcarousel-next" href="#"></a>
+				</div>
+			</div>
+			<div class="module left_column small">
+				<div class="popular_videos">
+					<h2 class="header">Самые популярные</h2>
+					<ul></ul>
+				</div>
+			</div>
+			<div class="module right_column big">
+				<div class="carousel">
+				</div>
+			</div>
+		</div>
+
+		<footer>
+		</footer>
+	</body>
+</html>
